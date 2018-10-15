@@ -16,12 +16,14 @@ services:
       - elkdata:/usr/share/elasticsearch/data
     ports:
       - 9200:9200
-    networks:
-      - elknet
+  kibana:
+    image: docker.elastic.co/kibana/kibana:6.4.2
+    container_name: kibana
+    volumes:
+      - ./kibana.yml:/usr/share/kibana/config/kibana.yml
+    ports:
+      - 5601:5601
 
 volumes:
   elkdata:
     driver: local
-
-networks:
-  elknet:

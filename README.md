@@ -7,7 +7,7 @@ log analysis workshop](https://mdiazlira.com/Talleres/TallerAnalisisDeLogs/prela
 
 For the stack to work you will need:
 
-1. 16 GB of memory.
+1. 8 GB of memory.
 1. Docker version 1.13.0 or better.
 1. Docker Compose.
 1. More virtual memory: Follow the instructions on

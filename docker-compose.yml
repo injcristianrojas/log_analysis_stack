@@ -34,7 +34,7 @@ services:
       - xpack.monitoring.elasticsearch.url=http://elasticsearch:9200
       - xpack.monitoring.enabled=true
     volumes:
-      - ./logs/http.log:/http.log
+      - ./logs/data.csv:/data.csv
       - ./logstash.conf:/usr/share/logstash/pipeline/logstash.conf
 
 volumes:

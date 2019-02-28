@@ -22,8 +22,10 @@ Create a logs folder:
 mkdir logs
 ```
 
-Put some HTTP logs in the `logs` folder, and then Launch the stack using:
+Put some CSV data in the `logs` folder, and then launch the stack using:
 
 ```shell
 docker-compose up
 ```
+
+Now, go to http://localhost:5601 and have fun.

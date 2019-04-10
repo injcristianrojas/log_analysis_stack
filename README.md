@@ -1,6 +1,6 @@
 # Log analysis stack
 
-This repo tries to dockerize @mdiazcl's [virtualized environment for a Security
+This repo tries to dockerize [@mdiazcl](https://github.com/mdiazcl)'s [virtualized environment for a Security
 log analysis workshop](https://mdiazlira.com/Talleres/TallerAnalisisDeLogs/prelab.html).
 
 ## Setup

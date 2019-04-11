@@ -37,6 +37,8 @@ services:
     volumes:
       - ./logs/data.csv:/data.csv
       - ./logstash.conf:/usr/share/logstash/pipeline/logstash.conf
+    ports:
+      - 5000:5000
 
 volumes:
   elkdata:
